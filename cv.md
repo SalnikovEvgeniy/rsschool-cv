@@ -30,8 +30,8 @@ some text
 
 ## Courses
 
-# sadada
+sadada
 
 ## Languages
 
-# sad
+sad
