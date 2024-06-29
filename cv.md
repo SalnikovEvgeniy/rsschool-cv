@@ -33,7 +33,7 @@ alert("Hello, world!")
 
 ## Courses
 
-JavaScript / Front-end Course (Pre-school RU) [https://rs.school/courses/javascript-preschool-ru]
+JavaScript / Front-end Course [Pre-school RU](https://rs.school/courses/javascript-preschool-ru)
 
 ## Languages
 
