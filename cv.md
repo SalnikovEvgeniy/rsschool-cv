@@ -33,7 +33,7 @@ alert("Hello, world!")
 
 ## Courses
 
-sadada
+JavaScript / Front-end Course (Pre-school RU) [RS School]()
 
 ## Languages
 
