@@ -6,17 +6,26 @@
     <title>CV</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="container">
-        <a href="#!" class="nav-logo"> Porfolio </a>
         <nav class="nav">
+          <a href="index.html" class="nav-logo"> Porfolio </a>
           <ul class="nav-list">
-            <li class="nav-item"><a href="" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Code</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Education</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
             <li class="nav-item">
               <a href="#languages" class="nav-link">Languages</a>
             </li>
@@ -28,7 +37,7 @@
     <main class="main">
       <div class="container">
         <section class="section" id="about">
-          <img src="" alt="" class="photo" />
+          <img src="./img/img_1.jpg" alt="photo" class="photo" />
           <h1 class="about-title">Salnikov Evgeniy</h1>
           <h2 class="section-title">Junior Frontend Developer</h2>
           <p class="section-description">
@@ -67,7 +76,7 @@
           <h2 class="section-title">Code</h2>
           <p class="section-description">alert("Hello, world!")</p>
         </section>
-        <section class="section" id="code">
+        <section class="section" id="education">
           <h2 class="section-title">Education</h2>
           <p class="section-description">
             JavaScript / Front-end Course
@@ -86,10 +95,16 @@
 
     <footer class="footer">
       <div class="container">
-        <a href="" class="git-link">Git</a>
+        <a href="https://github.com/SalnikovEvgeniy" class="git-link">
+          <img src="./img/Git.svg" alt="git logo" class="git-logo" />
+        </a>
         <p class="footer date">2024</p>
         <a href="https://rs.school/courses/javascript-ru" class="rs-logo">
-          <img src="" alt="" class="rs-logo-img" />
+          <img
+            src="./img/logo-rsschool.png"
+            alt="rs school logo"
+            class="rs-logo-img"
+          />
         </a>
       </div>
     </footer>
