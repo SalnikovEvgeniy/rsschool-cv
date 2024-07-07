@@ -15,10 +15,10 @@ body {
     background-color: #583EFF;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #FFFFFF;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -26,6 +26,11 @@ a {
     color: inherit;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
 
 
 /* HEADER */
@@ -40,12 +45,9 @@ a {
 
 .nav-list {
     display: flex;
-    list-style: none;
+
 }
 
-.nav-item {
-    transition: 0.3s;
-}
 
 .nav-link {
     color: #000000;
@@ -63,4 +65,128 @@ a {
     font-size: 20pt;
     font-weight: 700;
     color: #000;
+    transition: 0.3s;
+}
+
+.nav-logo:hover {
+    color: #583EFF;
+}
+
+
+/* ABOUT */
+.line {
+    height: 5px;
+    width: 75px;
+    margin-bottom: 10px;
+
+    background-color: #583EFF;
+
+}
+
+.section-about {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.about-wrapper {
+    display: block;
+    max-width: 900px;
+    margin: 50px;
+
+}
+
+.photo {
+    height: 300px;
+}
+
+.about-title {
+    font-size: 30pt;
+    font-weight: 700;
+}
+
+.about-section-title {
+    font-weight: 400;
+}
+
+.section-description {
+    font-size: 14pt;
+    line-height: 22pt;
+    color: #4D4D4D;
+}
+
+/* CONTACTS */
+
+.section {
+    padding: 30px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact-list {
+    padding: 0 15px;
+}
+
+/* SKILS */
+.skills-list {
+    padding: 0 30px;
+    list-style-type: square;
+    /* list-style-position: inside; */
+}
+
+/* CODE */
+.code {
+    width: 170px;
+    padding: 15px 15px;
+    background: #F8F6FA;
+}
+
+/* EDUCATION */
+
+.education-description {
+    padding: 0 15px;
+
+}
+
+.course {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.course:hover {
+    color: #583EFF;
+}
+
+/* LANG */
+.lang-list {
+    padding: 0 15px;
+}
+
+/* FOOTER */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #F8F6FA;
+}
+
+.git-logo {
+    height: 70px;
+    padding-left: 15px;
+}
+
+.rs-logo-img {
+    height: 50px;
+    padding-right: 15px;
+}
+
+.footer-date {
+    font-size: 20px;
+    font-weight: 700;
+    color: #7e7e7e;
 }
